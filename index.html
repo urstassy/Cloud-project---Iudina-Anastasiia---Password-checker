@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Password Strength Checker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🔐 Password Strength Checker</h1>
+
+  <input type="text" id="password" placeholder="Your secure password will appear here..." />
+  <p id="strength"></p>
+
+  <button id="generate">Generate Strong Password</button>
+  <button id="copy">📋 Copy Password</button>
+  <p id="copied" style="color: green; display: none;">Copied!</p>
+
+  <div id="tips">
+  <ul>
+    <li id="length">❌ At least 12 characters</li>
+    <li id="upper">❌ Uppercase letters (A-Z)</li>
+    <li id="lower">❌ Lowercase letters (a-z)</li>
+    <li id="number">❌ Numbers (0-9)</li>
+    <li id="symbol">❌ Special characters (!@#$...)</li>
+  </ul>
+  </div>
+
+  <hr style="margin-top: 40px;">
+
+  <div id="about">
+    <h2>🔒 Why Use This Website?</h2>
+    <ul>
+      <li>Check your password strength instantly</li>
+      <li>Helpful tips to make passwords stronger</li>
+      <li>Built-in strong password generator</li>
+      <li>Simple and user-friendly interface</li>
+      <li>No passwords are stored — privacy first!</li>
+      <li>Free, open-source, and secure</li>
+    </ul>
+
+    <h3>🧾 License</h3>
+    <p>This project is licensed under the <strong>MIT License</strong>. You can use, modify, and share it freely.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
