@@ -67,6 +67,22 @@ Password classification (weak, medium, strong)
 Secure password generation
 Copy-to-clipboard functionality
 
+Step 6: Running the Server Continuously; The server was configured to run in the background using PM2.(all screenshots are provided in pdf file).
+This ensures the server restarts automatically if the VM is rebooted.
+
+
+License:
+This project is licensed under the MIT License. You are free to use, modify, and distribute this project for personal or commercial use.
+
+Author:
+Anastasiia Iudina
+GitHub: @urstassy
+
+
+
+
+
+
 
 
 
