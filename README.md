@@ -40,7 +40,32 @@ Step 3: Installing Node.js and Dependencies (all screenshots are in pdf)
 
 Step 4: Create a Password Checker project, create a folder and go to it, initialise the project and install Express, and create a file server.js, setting Up the Server, a file named server.js was created to host the site locally on the VM (code is provided here in server.js file)
 
+Step 5: Creating the Frontend inside the public/ folder, the following files were created:
 
+ - index.html (code is provided here in index.html file)
+The main structure of the web page. It includes:
+A password input field
+Visual feedback on password strength
+A list of rules with checkmarks or crosses
+A "Generate Password" button
+A "Copy to Clipboard" button
+Helpful security tips
+Description and license information
+
+ - styles.css (code is provided here in styles.css file)
+This file contains:
+General layout and color scheme
+Responsive styles for mobile devices
+Smooth transitions and animations
+Clean, readable font and styling
+
+ - script.js (code is provided here in script.js file)
+This file contains the logic for:
+Real-time analysis of password strength
+Rule-by-rule validation (length, uppercase, lowercase, digits, symbols)
+Password classification (weak, medium, strong)
+Secure password generation
+Copy-to-clipboard functionality
 
 
 
